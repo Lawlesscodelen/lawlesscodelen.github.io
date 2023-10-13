@@ -29,45 +29,36 @@ with open('articulos.html', 'w', encoding="utf-8") as output_file:
         template.render(
             config=config,
             page_name='articulos',
+            items=config['articulos']
         )
     )
 
-
-######## TUTORIALES
+######## LIBROS
 # tipo: lista, output:artículos
-template = template_env.get_template('tutoriales.html')
+template = template_env.get_template('lista.html')
 
-with open('tutoriales.html', 'w', encoding="utf-8") as output_file:
+with open('libros.html', 'w', encoding="utf-8") as output_file:
     output_file.write(
         template.render(
             config=config,
-            page_name='tutoriales',
+            page_name='libros',
+            items=config['libros']
         )
     )
 
-######## TRADUCCIONES
+######## VIDEOS
 # tipo: lista, output:artículos
-template = template_env.get_template('traducciones.html')
+template = template_env.get_template('lista.html')
 
-with open('traducciones.html', 'w', encoding="utf-8") as output_file:
+with open('videos.html', 'w', encoding="utf-8") as output_file:
     output_file.write(
         template.render(
             config=config,
-            page_name='traducciones',
+            page_name='videos',
+            items=config['videos']
         )
     )
 
-######## OTROS
-# tipo: lista, output:artículos
-template = template_env.get_template('otros.html')
-
-with open('otros.html', 'w', encoding="utf-8") as output_file:
-    output_file.write(
-        template.render(
-            config=config,
-            page_name='otros',
-        )
-    )
 
 ######## SOBREMI
 # tipo: cuadro, output:sobremi

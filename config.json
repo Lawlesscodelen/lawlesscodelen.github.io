@@ -3,103 +3,73 @@
         "title": "Elen Irazabal",
         "image": "https://raw.githubusercontent.com/Lawlesscodelen/lawlesscodelen.github.io/main/images/foto_elen_01.jpg",
         "url": "https://lawlesscodelen.github.io/",
-        "description": "Abogada, programadora y emprendedora con el objetivo de aterrizar la legislación a los ciudadanos",
-        "description_frontcover": "Abogada, programadora y emprendedora con el objetivo de aterrizar la legislación a los ciudadanos para que puedan conocer y ejercer sus derechos y deberes"
+        "description": "Abogada, doctorando en Derecho, con el objetivo de aterrizar la legislación a los ciudadanos",
+        "description_frontcover": "Abogada y especialista en Inteligencia Artificial. Doctoranda en Derecho por la Universidad Autónoma de Madrid - CSIC. Soy la autora del libro “La Inteligencia Artificial explicada para abogados”"
     },
     "navbar":{
         "title": "elen",
         "pages": {
             "index": "Índice",
+            "articulos": "Artículos",
+            "libros": "Libros",
+            "videos": "Vídeos",
             "sobremi": "Sobre mí"
         }
     },
-    "articulos": [{
-            "title": "Generating OHLC bars with Generative Adversarial Networks",
-            "link": "https://quantdare.com/generating-open-high-low-close-bars-with-gans",
+    "articulos": [
+        {
+            "title": "Blog Consejo General de la Abogacía Española (CGAE): Recursos gratuitos para aprender programación e Inteligencia Artificial",
+            "link": "https://www.abogacia.es/publicaciones/blogs/blog-de-innovacion-legal/recursos-gratuitos-para-aprender-programacion-e-inteligencia-artificial/",
             "date": "30/01/2020"
         },
         {
-            "title": "Geometrical evaluation of Generative Adversarial Networks",
-            "link": "https://quantdare.com/geometrical-properties-of-generative-adversarial-networks",
+            "title": "CGAE: La Inteligencia Artificial ya es inevitable para la profesion jurídica ",
+            "link": "https://www.abogacia.es/publicaciones/blogs/blog-de-innovacion-legal/la-inteligencia-artificial-ya-es-inevitable-para-la-profesion-juridica/",
             "date": "24/07/2019"
         },
         {
-            "title": "Reinforcement Learning for Trading\n",
-            "link": "https://quantdare.com/reinforcement-learning-for-trading/",
+            "title": "CGAE: Estoy harta de ser abogada ¿me dedico a tecnología? ",
+            "link": "https://www.abogacia.es/publicaciones/blogs/blog-de-innovacion-legal/estoy-harta-de-ser-abogada-me-dedico-a-tecnologia/",
             "date": "16/12/2020"
-        }],
-    "tutoriales": [{
-            "title": "Tutorial de expresiones regulares",
-            "link": "files/expresiones_regulares.html",
-            "date": "[python]"
-        }],
-    "traducciones": [
-        {
-            "title": "Antal Fekete - Análisis del desequilibrio en la formación de precios",
-            "link": "files/Fekete-Análisis_del_desequilibrio_en_la_formación_de_precios.pdf",
-            "date": "Revisión técnica. Autora: Sara Marín"
-        },
-        {
-            "title": "Bryan Caplan - Razones para no ser un economista austriaco",
-            "link": "files/Caplan-Razones_para_no_ser_un_economista_austriaco.pdf",
-            "date": "Revisión técnica. Autora: Sara Marín"
-        },
-        {
-            "title": "Antal Fekete - Los Errores de Mises",
-            "link": "files/Fekete-Los_Errores_de_Mises.pdf",
-            "date": "Revisión técnica. Autora: Sara Marín"
-        },
-        {
-            "title": "Henry Hazlitt - La Economía en una Lección",
-            "link": "files/Hazlitt-La_Economía_en_una_Lección.pdf",
-            "date": "Revisión y corrección. Autor: Adolfo Rivero"
-        },
-        {
-            "title": "James Buchanan - Notas sobre Hayek",
-            "link": "files/Buchanan_Notas_sobre_Hayek.pdf",
-            "date": "Traductor"
-        },
-        {
-            "title": "Melchior Palyi - Liquidez",
-            "link": "files/Palyi-Liquidez.pdf",
-            "date": "Traductor"
-        },
-        {
-            "title": "Vernon Smith - La Acción Humana, 50 años después",
-            "link": "files/Smith-La_Acción_Humana_50_años_después.pdf",
-            "date": "Traductor"
         }
     ],
-    "otros": [
+    "libros": [
         {
-            "title": "'Principios de Economía Financiera' de Rafael García Iborra",
-            "link": "https://www.youtube.com/watch?v=I8VopPYfZ0U",
-            "date": "Acompañé al autor en la presentación de su libro, donde expone una microfundamentación de su teoría del ciclo económico donde recurre a muchas ideas de la teoría financiera actual"
-        },
-        {
-            "title": "Otra Vuelta de Tuerka - ¿Por qué votan los ancianos a sus verdugos?",
-            "link": "https://www.youtube.com/watch?v=cvYFXaQK3Qc",
-            "date": "Participé en el programa Otra Vuelta de Tuerka donde debatimos sobre el futuro de las pensiones"
-        },
-        {
-            "title": "Entrevista a Daniel Fernández sobre teoría monetaria",
-            "link": "https://www.youtube.com/watch?v=VC5Z20y5_x4",
-            "date": "Entrevista sobre teoría monetaria y bancaria con el experto Daniel Fernández"
-        },
-        {
-            "title": "Debate sobre el aborto",
-            "link": "https://www.youtube.com/watch?v=dV3GvNRixcw",
-            "date": "Modero un debate sobre el aborto, con José Luis Ricón, Eladio García y José Augusto Domínguez como invitados"
-        },
-        {
-            "title": "Diez años del Juan de Mariana",
-            "link": "https://www.youtube.com/watch?v=sxFEzmZMnPM",
-            "date": "Hablo con Francisco Capella y Jorge García sobre los 10 primeros años del Instituto Juan de Mariana"
-        },
-        {
-            "title": "Debate sobre la Teoría Monetaria Moderna",
-            "link": "https://www.youtube.com/watch?v=mb2rq2JOwJA",
-            "date": "Modero el debate entre los economistas Eduardo Garzón y Juan Ramón Rallo sobre la teoría monetaria moderna"
+            "title": "La Inteligencia Artificial explicada para abogados, La Ley. 2023",
+            "link": "https://tienda.laley.es/p/la-inteligencia-artificial-explicada-para-abogados?gad=1&gclid=Cj0KCQjwmICoBhDxARIsABXkXlKoAQZTrBMcgwdG3Up6JV-Adwk3iMENM9CSQ7M7okN4rntt6FnhahsaAsw_EALw_wcB",
+            "date": "30/01/2020"
         }
+    ],
+    "videos": [
+        {
+            "title": "Tarugo, 2022",
+            "link": "https://vimeo.com/830824091",
+            "date": "30/01/2020"
+        },
+        {
+            "title": "Derecho + IA , 2022",
+            "link": "https://www.youtube.com/watch?v=5a6TEOIOdoM",
+            "date": "30/01/2020"
+        },
+        {
+            "title": "Perfiles jurídicos en IA + escribe con tu voz, 2022",
+            "link": "",
+            "date": "30/01/2020"
+        },
+        {
+            "title": "PLN: La singularidad de los textos jurídicos, 2020",
+            "link": "https://www.youtube.com/watch?v=c6KD-D8WUtw",
+            "date": "30/01/2020"
+        },
+        {
+            "title": "Introducción a la programación con Python para juristas, 2021",
+            "link": "https://www.youtube.com/watch?v=sYdSAJlU-RE",
+            "date": "30/01/2020"
+        },
+        {
+            "title": "EITB",
+            "link": "https://www.eitb.eus/es/noticias/tecnologia/videos/detalle/9242517/video-expertos-aseguran-que-inteligencia-artificial-afectara-a-ocho-de-cada-diez-puestos-de-trabajo-en-mundo/",
+            "date": "30/01/2020"
+        }    
     ]
 }

@@ -62,7 +62,11 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: #fff; 
+  height: 100%;
+  padding:0%;
+  overflow-y: auto;
+}
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -459,7 +463,9 @@ pre {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto; 
+  min-height: 100%;
+  overflow: hidden;}
   @media (min-width: 576px) {
     .container {
       max-width: 540px; } }
@@ -8541,3 +8547,7 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+/* .js-fullheight {
+      overflow-y: auto;
+} */
