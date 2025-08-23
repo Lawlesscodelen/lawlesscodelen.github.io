@@ -1,0 +1,90 @@
+baseURL = "https://lawlesscodelen.github.io/"
+publishDir = "../docs"
+languageCode = 'en'
+title = 'Elen Irazabal Arana'
+copyright = '© {year} Elen Irazabal Arana'
+
+[security]
+  [security.funcs]
+    getenv = ['^HUGO_', '^WC_POST_CSS$']
+
+[module]
+  [[module.imports]]
+    path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5"
+  [[module.imports]]
+    path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify"
+
+[params]
+  theme = "minimal"
+  color_theme = "ocean"
+  font = "minimal"
+  
+  # Contact details
+  email = "elen@advocatusai.com"
+  phone = ""
+  
+  # Display a logo in navigation bar rather than title (optional)
+  # logo = ""
+  
+  # Address
+  # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
+  address = {street = "", city = "Madrid", region = "Madrid", postcode = "", country = "Spain", country_code = "ES"}
+  
+  # Geographic coordinates
+  # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
+  coordinates = {latitude = "40.4168", longitude = "-3.7038"}
+  
+  # Office hours
+  # A list of your office hours. To remove, set to an empty list `[]`.
+  office_hours = []
+
+[[params.social]]
+  icon = "envelope"
+  icon_pack = "fas"
+  link = "mailto:elen@advocatusai.com"
+
+[[params.social]]
+  icon = "google-scholar"
+  icon_pack = "ai"
+  link = "https://scholar.google.com/citations?user=Ki7hbzMAAAAJ&hl=en&oi=ao"
+
+[[params.social]]
+  icon = "linkedin"
+  icon_pack = "fab"
+  link = "https://www.linkedin.com/in/elen-irazabal"
+
+[[params.social]]
+  icon = "rss"
+  icon_pack = "fas"
+  link = "https://advocatusai.substack.com/"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "#about"
+    weight = 10
+    
+  [[menu.main]]
+    name = "Education"
+    url = "#education"
+    weight = 20
+    
+  [[menu.main]]
+    name = "Teaching"
+    url = "#teaching"
+    weight = 30
+    
+  [[menu.main]]
+    name = "Publications"
+    url = "#publications"
+    weight = 40
+    
+  [[menu.main]]
+    name = "Newsletter"
+    url = "#newsletter"
+    weight = 50
+    
+  [[menu.main]]
+    name = "Contact"
+    url = "#contact"
+    weight = 60
