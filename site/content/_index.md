@@ -6,6 +6,8 @@ sections:
   - block: hero
     content:
       title: Elen Irazabal Arana
+      image:
+        filename: foto_elen_01.JPG
       cta:
         label: '**Learn More**'
         url: '#about'

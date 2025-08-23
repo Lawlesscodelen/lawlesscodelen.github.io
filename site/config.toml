@@ -1,4 +1,5 @@
 baseURL = "https://lawlesscodelen.github.io/"
+publishDir = "../docs"
 languageCode = 'en'
 title = 'Elen Irazabal Arana'
 copyright = '© {year} Elen Irazabal Arana'
