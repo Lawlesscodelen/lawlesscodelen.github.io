@@ -4,6 +4,16 @@ languageCode = 'en'
 title = 'Elen Irazabal Arana'
 copyright = '© {year} Elen Irazabal Arana'
 
+enableRobotsTXT = true
+enableGitInfo = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+canonifyURLs = true
+
 [security]
   [security.funcs]
     getenv = ['^HUGO_', '^WC_POST_CSS$']
@@ -18,7 +28,8 @@ copyright = '© {year} Elen Irazabal Arana'
   theme = "minimal"
   color_theme = "ocean"
   font = "minimal"
-  
+  description = "PhD candidate in Law and Economics at Universidad de las Hespérides. Specialist in Artificial Intelligence law, economics, governance, and philosophy of law"
+  images = ["/images/foto_elen_01.jpg"]
   # Contact details
   email = "elen@advocatusai.com"
   phone = ""
