@@ -268,12 +268,6 @@ sections:
       directions: 
       contact_links: []
       autolink: true
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          captcha: false
     design:
       columns: '2'
 ---
