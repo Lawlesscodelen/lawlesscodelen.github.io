@@ -1,6 +1,6 @@
 ---
 title: Elen Irazabal Arana
-description: "PhD candidate in Law and Economics at Universidad de las Hespérides. Specialist in Artificial Intelligence law, economics, governance, and philosophy of law"
+summary: "PhD candidate in Law and Economics at Universidad de las Hespérides. Specialist in Artificial Intelligence law, economics, governance, and philosophy of law"
 image:
   filename: images/foto_elen_01.jpg
   alt: "Elen Irazabal Arana"
